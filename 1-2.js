@@ -1,4 +1,4 @@
-let input = ``.split('\n').map(x => x.split(''));
+let input = `<INPUT>`.split('\n').map(x => x.split(''));
 
 const nums = ['one','two','three','four','five','six','seven','eight','nine']
 
