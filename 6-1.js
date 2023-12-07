@@ -1,4 +1,4 @@
-let input = `<INPUT>`.split('`').map(x => x.split(' ').filter(x => x== parseInt(x)));
+let input = `<INPUT>`.split('\n').map(x => x.split(' ').filter(x => x== parseInt(x)));
 
 let a = 1;
 for (let i = 0; i < input[0].length; i++){
